@@ -7,6 +7,7 @@ import Mail from "./ContactForm";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import LocationOnIcon from '@material-ui/icons/LocationOn';
 import ContactMailIcon from '@material-ui/icons/ContactMail';
+import HomeIcon from "@material-ui/icons/Home";
 
 
 function Iletisim() {
@@ -50,15 +51,26 @@ function Iletisim() {
             </p>
             <p style={{ fontSize: "medium", textAlign: "left" }}>
               <a
-                href="https://goo.gl/maps/VsnbDNwofeigAHJo8"
+                href="https://goo.gl/maps/P8nV1rQDjqjbftPv8"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <LocationOnIcon style={{ fontSize: "x-large",color:"#c71535" }} />
+                <HomeIcon style={{ fontSize: "x-large" }} />
               </a>
-              &nbsp; Muratpaşa mahallesi Cumhuriyet caddesi Palerium AVM Kat:1 No:38 Yakutiye/ Erzurum <br/>Yakutiye / Erzurum
+              &nbsp; Muratpaşa mahallesi Cumhuriyet caddesi Palerium AVM Kat:1 No:38 
            
               
+            </p>
+            <p style={{ fontSize: "14px", textAlign: "left" }}>
+              <a
+                href="https://goo.gl/maps/P8nV1rQDjqjbftPv8"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <LocationOnIcon style={{ fontSize: "24px" , color:"red" }} />
+              </a>
+              &nbsp; 
+              <b>Yakutiye / ERZURUM</b>{" "}
             </p>
       </div>
 
@@ -74,7 +86,7 @@ function Iletisim() {
 
       <div class="col-lg-6 col-md-6 col-sm-12 col-12">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.9248932925534!2d32.85399595257102!3d39.918636518271725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xad58f6dd311af5a7%3A0xee9f3d89cb9d9ff4!2sE&#39;liva%20Beauty%20Erzurum!5e0!3m2!1str!2str!4v1678027358317!5m2!1str!2str"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d191.2879521746535!2d41.26934403824897!3d39.905425155742286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3de555931d3c37%3A0x8fae41837816fba4!2sEliva%20Beauty%20Erzurum!5e0!3m2!1str!2str!4v1678744925229!5m2!1str!2str"
           className="googleharita"
           style={{
             width: "100%",

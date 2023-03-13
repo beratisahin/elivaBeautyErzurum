@@ -195,14 +195,25 @@ export default class Foooter extends Component {
             </p>
             <p style={{ fontSize: "14px", textAlign: "left" }}>
               <a
-                href="https://goo.gl/maps/VsnbDNwofeigAHJo8"
+                href="https://goo.gl/maps/P8nV1rQDjqjbftPv8"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <HomeIcon style={{ fontSize: "24px" }} />
               </a>
               &nbsp;Muratpaşa mahallesi Cumhuriyet caddesi Palerium AVM Kat:1 No:38 
-              <b style={{ paddingLeft: "10px" }}>Yakutiye / Erzurum</b>{" "}
+           
+            </p>
+            <p style={{ fontSize: "14px", textAlign: "left" }}>
+              <a
+                href="https://goo.gl/maps/P8nV1rQDjqjbftPv8"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <LocationOnIcon style={{ fontSize: "24px" }} />
+              </a>
+              &nbsp; 
+              <b>Yakutiye / ERZURUM</b>{" "}
             </p>
           </div>
 
@@ -237,7 +248,7 @@ export default class Foooter extends Component {
 
           <div className="roof-location">
             <a
-              href="https://goo.gl/maps/LmqLB19hXP88zsss8"
+              href="https://goo.gl/maps/P8nV1rQDjqjbftPv8"
               className="location_float"
               target="_blank"
               rel="noopener noreferrer"
